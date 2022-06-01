@@ -6,9 +6,9 @@ using namespace std;
 int main() {
 
 	setlocale(0, "");
-	cout << "Введите выражение: ";
+	cout << "Enter mathematical expression: ";
 	double result = sl_vic();
-	cout << "Результат: " << result << endl;
+	cout << "Result: " << result << endl;
 	
 	return 0;
 }
