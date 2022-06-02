@@ -1,5 +1,5 @@
 #include<iostream>
-#include "func.h"
+#include "arifmetic_calc.h"
 using namespace std;
 
 
