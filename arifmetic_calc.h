@@ -1,11 +1,11 @@
 #pragma once
 #include<iostream>
 using namespace std;
-
+// объявление функции
 double number();
 double um_del();
 double sl_vic();
-
+// считывание и проверка символа из потока
 double number() {
 
 	int res = 0;
@@ -26,6 +26,7 @@ double number() {
 	}
 	return res;
 }
+// проверка, является ли символ скобкой, знаком умножения или деления
 double um_del() {
 	double digit;
 	char smbl = cin.get();
@@ -50,6 +51,7 @@ double um_del() {
 	}
 
 }
+// проверка, является ли символ знаком сложения или вычитания
 double sl_vic() {
 	double digit = um_del();
 	char smbl = cin.get();

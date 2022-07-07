@@ -4,8 +4,7 @@ using namespace std;
 
 
 int main() {
-
-	setlocale(0, "");
+// вызов функции из подключаемого заголовочного файла
 	cout << "Enter mathematical expression: ";
 	double result = sl_vic();
 	cout << "Result: " << result << endl;
